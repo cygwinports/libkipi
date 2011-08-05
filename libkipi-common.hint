@@ -1,0 +1,4 @@
+category: Graphics KDE
+external-source: libkipi
+sdesc: "KDE4 Image Plugin Interface library (data)"
+ldesc: "KDE graphics suite"

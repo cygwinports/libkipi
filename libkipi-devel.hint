@@ -1,0 +1,5 @@
+category: Graphics KDE
+requires: libkipi8 libkdecore5-devel libQtCore4-devel libQtGui4-devel
+external-source: libkipi
+sdesc: "KDE4 Image Plugin Interface library (development)"
+ldesc: "KDE graphics suite"
