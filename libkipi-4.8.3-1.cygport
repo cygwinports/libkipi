@@ -1,7 +1,0 @@
-inherit kde4
-
-
-PKG_NAMES="libkipi8 libkipi-common libkipi-devel"
-libkipi8_CONTENTS="usr/bin/cygkipi-8.dll"
-libkipi_common_CONTENTS="etc/ usr/share/"
-libkipi_devel_CONTENTS="usr/include/ usr/lib/"

@@ -1,0 +1,14 @@
+inherit kde4
+
+NAME="libkipi"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE4 Image Plugin Interface library"
+
+PKG_NAMES="libkipi10 libkipi-common libkipi-devel"
+libkipi10_REQUIRES="libkipi-common"
+libkipi10_CONTENTS="usr/bin/cygkipi-10.dll"
+libkipi_common_CONTENTS="etc/ usr/share/"
+libkipi_devel_REQUIRES="libkdecore-devel"
+libkipi_devel_CONTENTS="usr/include/ usr/lib/"
